@@ -1,3 +1,7 @@
 Start: Wed, 28 Jan 2015 19:00:00 -0700
-End: Wed, 7 Jan 2015 22:42:26 -0800
-Tasks: During this period I drew a diagram of the classes I will be using to implement 
+End: Wed, 28 Jan 2015 20:18:00 -0700
+Tasks: I added my code to variables.js , objects.js , functions.js.  
+
+Tomorrow:
+-Test
+-Lint
