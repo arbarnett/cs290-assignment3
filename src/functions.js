@@ -13,7 +13,9 @@
 */
 
 //your code here
-
+function uselessFunction(){
+	return null;
+}
 //end your code
 
 var bar = 'not a function';
@@ -30,7 +32,16 @@ var barType = typeof bar;
 */
 
 //your code here
-
+bar = function(doubleArray){
+	for(int i=0; i<doubleArray.length; i++){
+		if(typeof doubleArray[i] === "number"){
+			doubleArray[i] *= 2;
+		}else{
+			return false;
+		}
+	}
+	return true;
+};
 //end your code
 
 /**
@@ -41,9 +52,9 @@ var barType = typeof bar;
 * @property {string} message - the commit message
 */
 function GitLog(hash, date, message) {
-    this.hash = hash;
-    this.date = date;
-    this.message = message;
+    this.hash = hash;	//the hash of the commit
+    this.date = date;	//the date of the commit as a JS Date object
+    this.message = message;	//the commit message
 }
 
 /**
@@ -66,5 +77,19 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
+function parseGit(logArray){
+	var gitLogs = new Array();
 
+	for(int i=0; i<logArray.length; i++){
+		
+		var splitArray = logArray[i].split(' ');
+		var toSendHash = splitArray[0];
+		var toSendDate = splitArray.slice(1,7).join(" ");		//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+		var toSendMessage = splitArray.slice(7,9).join(" ");
+		
+		gitLogs.push(new GitLog(toSendHash, toSendDate, toSendMessage));
+	}
+
+	return gitLogs;
+}
 //end your code
