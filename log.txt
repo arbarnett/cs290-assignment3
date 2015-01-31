@@ -4,5 +4,5 @@ Tasks: I added my code to variables.js , objects.js , functions.js.
 
 
 Start: Sat, 31 Jan 2015 11:54:00 -0700
-End: Wed, 28 Jan 2015 20:18:00 -0700
-Tasks:   
+End: Sat, 31 Jan 2015 12:30:00 -0700
+Tasks:   Testing with a private tutor

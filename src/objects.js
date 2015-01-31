@@ -60,7 +60,7 @@ function MessageLog(user){
 		//returns an integer indicating the total number of messages sent
 		return this.sentMessages.length;
 	};
-	this.totalRecieved = function(){
+	this.totalReceived = function(){
 		//returns an integer indicating the total number of messages received
 		return this.receivedMessages.length;
 	};

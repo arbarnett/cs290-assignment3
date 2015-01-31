@@ -54,7 +54,7 @@ function isNull(c) {
   //your code here
 
   //Source:http://www.javascriptkit.com/javatutors/determinevar2.shtml
-  if(typeof c === null){
+  if(c === null){
     return true;
   }else{
     return false;
