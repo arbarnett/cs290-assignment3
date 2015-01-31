@@ -2,6 +2,7 @@ Start: Wed, 28 Jan 2015 19:00:00 -0700
 End: Wed, 28 Jan 2015 20:18:00 -0700
 Tasks: I added my code to variables.js , objects.js , functions.js.  
 
-Tomorrow:
--Test
--Lint
+
+Start: Sat, 31 Jan 2015 11:54:00 -0700
+End: Wed, 28 Jan 2015 20:18:00 -0700
+Tasks:   
